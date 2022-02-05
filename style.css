@@ -126,7 +126,6 @@ ul li {
 .container.quote{
     display: flex;
     flex-direction: column;
-    margin: 0 230px;
 
 }
 .pQuote{
@@ -150,6 +149,27 @@ cite{
     background-color: rgb(16, 60, 182);
     display: flex;
     color: #fff;
+    border-radius: 15px;
+    margin: 200px auto;
+    justify-content: space-between;
+}
 
+.btn.two{
+    background-color: #1f293700;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 60px;
+    border: 2px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
 
+footer{
+    background-color: #1f2937;
+    color: #fff;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
 }
